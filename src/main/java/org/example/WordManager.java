@@ -5,12 +5,10 @@ public class WordManager {
 
     Scanner s = new Scanner(System.in);
     WordCRUD wordCRUD;
-
     WordManager(){wordCRUD = new WordCRUD(s);
     }
-
     public int selectMenu() {
-    System.out.println(
+            System.out.println(
             "********************\n" +
             "1. 모든 단어 보기\n" +
             "2. 수준별 단어 보기\n" +
@@ -21,28 +19,25 @@ public class WordManager {
             "7. 파일 저장\n" +
             "0. 나가기\n" +
             "******************** \n" );
-    System.out.print("=> 원하는 메뉴는 ? ");
-     return s.nextInt();
 
+            System.out.print("=> 원하는 메뉴는 ? ");
 
-    }
+            return s.nextInt();}
 
     public void start(){
         System.out.println("*** 영단어 마스터 ***\n");
-    while(true){
-        int menu = selectMenu();
 
-        if(menu == 0) {
-            System.out.println("\n프로그램 종료! 다음에 만나요~");
-            break;
-        }
-            else if(menu == 4){
-                wordCRUD.addWord();
-             }
-            else if(menu == 1){
-              wordCRUD.listAll();
-            }
-    }
-    }
+            while(true){
+                int menu = selectMenu();
+
+                    if(menu == 0) {
+                    System.out.println("\n프로그램 종료! 다음에 만나요~");
+                    break;}
+                    else if(menu == 4) wordCRUD.addWord();
+
+                    else if(menu == 1) wordCRUD.listAll();
+                        }
+                }
+
 }
 

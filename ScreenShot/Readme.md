@@ -10,3 +10,11 @@ hw1
 종료 실행 화면 
 
 <img src = "https://github.com/didqnrb1/hw1/blob/master/hw1_%EC%A2%85%EB%A3%8C.png?raw=true" width = "300">
+
+종료 실행 화면 
+
+<img src = "https://github.com/didqnrb1/hw1/blob/master/hw1_%EC%A2%85%EB%A3%8C.png?raw=true" width = "300">
+
+종료 실행 화면 
+
+<img src = "https://github.com/didqnrb1/hw1/blob/master/hw1_%EC%A2%85%EB%A3%8C.png?raw=true" width = "300">

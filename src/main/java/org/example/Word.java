@@ -31,7 +31,6 @@ public class Word {
     public void setWord(String word) {
         this.word = word;}
 
-
     private String meaning;
     public String getMeaning() {
         return meaning;}

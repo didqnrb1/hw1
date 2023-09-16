@@ -26,6 +26,7 @@ public class WordManager {
         System.out.print("=> 원하는 메뉴는 ? ");
 
         return s.nextInt();
+
     }
 
     public void start() {
@@ -39,7 +40,7 @@ public class WordManager {
             if (menu == 0) {
                 System.out.println("\n프로그램 종료! 다음에 만나요~");
                 break;
-            } else if (menu == 4) wordCRUD.addItem();
+            }else if (menu == 4) wordCRUD.addItem();
 
             else if (menu == 1) wordCRUD.listAll();
 
@@ -48,7 +49,6 @@ public class WordManager {
             else if (menu == 3) wordCRUD.searchWord();
 
             else if (menu == 5) {
-                //update
                 wordCRUD.updateItem();
             } else if (menu == 6) {
                 wordCRUD.deleteItem();
